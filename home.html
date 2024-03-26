@@ -37,6 +37,48 @@
                     </ul>
                 </div>
             </section>
+
+            <section>
+                <form action="/submit" method="POST" role="form">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" required>
+                    <br />
+            
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+            
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="18" max="100">
+                    <br>
+            
+                    <label>Gender:</label>
+                    <br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+            
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <br>
+            
+                    <label for="newsletter">Subscribe to newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <br>
+            
+                    <label for="feedback">Feedback:</label><br>
+                    <textarea id="feedback" name="feedback"></textarea><br>
+            
+                    <input type="submit" value="Submit">
+                    <br />
+                    <button type="submit">
+                        Submit
+                    </button>
+                </form>
+            </section>
         
             <article role="article">
                 <header>
