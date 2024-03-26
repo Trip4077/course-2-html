@@ -1,103 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Welcome to Our Website">
-        <title>Home Page</title>
-    </head>
-    <body>
-        <header>
-            <h1>Welcome to Our Website</h1>
-        </header>
 
-        <nav role="navigation">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome to Our Website">
+    <title>Landing Page</title>
+</head>
 
-        <main role="main">
-            <h2>The Place to Be</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel ullamcorper nisi. Fusce vel neque vel nisi
-                ultrices rutrum nec eu magna. Nulla aliquam sit amet libero eu vehicula.</p>
-        
-            <section>
-                <h3>Can also have multiple</h3>
-                <div>
-                    <ol>
-                        <li>First learn HTML</li>
-                        <li>Then learn CSS</li>
-                        <li>Then learn JavaScript</li>
-                    </ol>
-                </div>
-                <div>
-                    <ul>
-                        <li>Eggs</li>
-                        <li>Milk</li>
-                        <li>Cheese</li>
-                    </ul>
-                </div>
-            </section>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0;">
+    <header style="background-color: #007bff; color: #fff; padding: 20px; text-align: center;">
+        <h1 style="margin: 0;">Welcome to Our Website</h1>
+    </header>
+    <nav role="navigation" style="background-color: #0056b3; padding: 10px; text-align: center;">
+        <a href="home.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Home</a>
+        <a href="about.html" style="color: #fff; text-decoration: none; margin: 0 10px;">About</a>
+        <!-- <a href="#" style="color: #fff; text-decoration: none; margin: 0 10px;">Contact</a> -->
+    </nav>
+    <main role="main" style="padding: 20px;">
+        <h2 style="color: #007bff;">The Place to Be</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel ullamcorper nisi. Fusce vel neque vel nisi
+            ultrices rutrum nec eu magna. Nulla aliquam sit amet libero eu vehicula.</p>
 
-            <section>
-                <form action="/submit" method="POST" role="form">
-                    <label for="username">Username:</label>
-                    <input type="text" name="username" id="username" required>
-                    <br />
-            
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-                    <br>
-            
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <br>
-            
-                    <label for="age">Age:</label>
-                    <input type="number" id="age" name="age" min="18" max="100">
-                    <br>
-            
-                    <label>Gender:</label>
-                    <br>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label>
-            
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label>
-                    <br>
-            
-                    <label for="newsletter">Subscribe to newsletter:</label>
-                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
-                    <br>
-            
-                    <label for="feedback">Feedback:</label><br>
-                    <textarea id="feedback" name="feedback"></textarea><br>
-            
-                    <input type="submit" value="Submit">
-                    <br />
-                    <button type="submit">
-                        Submit
-                    </button>
-                </form>
-            </section>
-        
-            <article role="article">
-                <header>
-                    <h2>Article Title</h2>
-                    <p>Published on January 1, 2024 by John Doe</p>
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed libero neque. Vestibulum nec nunc eu
-                    nisl
-                    euismod faucibus.</p>
-                <p>Nulla facilisi. Sed gravida rutrum neque, in tempus justo tincidunt eu. Integer ac luctus eros, vel
-                    venenatis
-                    nisi. Aliquam erat volutpat.</p>
-                <footer>
-                   <p>article footer</p>
-                </footer>
-            </article>
-        </main>
-        <footer>
-            <p>&copy; 2024 Our Website. All rights reserved.</p>
-        </footer>
-    </body>
+        <section>
+            <h3 style="color: #007bff;">Can also have multiple</h3>
+            <div>
+                <ol>
+                    <li>First learn HTML</li>
+                    <li>Then learn CSS</li>
+                    <li>Then learn JavaScript</li>
+                </ol>
+            </div>
+            <div>
+                <ul>
+                    <li>Eggs</li>
+                    <li>Milk</li>
+                    <li>Cheese</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <form action="/submit" method="POST" role="form" style="margin-top: 50px;">
+                <label for="username" style="color: #007bff;">Username:</label>
+                <input type="text" name="username" id="username" required style="margin-bottom: 10px;">
+                <br />
+
+                <label for="password" style="color: #007bff;">Password:</label>
+                <input type="password" id="password" name="password" required style="margin-bottom: 10px;">
+                <br>
+
+                <label for="email" style="color: #007bff;">Email:</label>
+                <input type="email" id="email" name="email" required style="margin-bottom: 10px;">
+                <br>
+
+                <label for="age" style="color: #007bff;">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="100" style="margin-bottom: 10px;">
+                <br>
+
+                <label style="color: #007bff;">Gender:</label>
+                <br>
+                <input type="radio" id="male" name="gender" value="male" style="margin-bottom: 10px;">
+                <label for="male" style="color: #007bff;">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female" style="margin-bottom: 10px;">
+                <label for="female" style="color: #007bff;">Female</label>
+                <br>
+
+                <label for="newsletter" style="color: #007bff;">Subscribe to newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes" style="margin-bottom: 10px;">
+                <br>
+
+                <label for="feedback" style="color: #007bff;">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" style="margin-bottom: 10px;"></textarea><br>
+
+                <input type="submit" value="Submit"
+                    style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; cursor: pointer; margin-bottom: 10px;">
+                <br />
+                <button
+                    style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; cursor: pointer; margin-bottom: 50px;">
+                    Submit
+                </button>
+            </form>
+        </section>
+        <article role="article">
+            <header>
+                <h2 style="color: #007bff;">Article Title</h2>
+                <p style="color: #6c757d;">Published on January 1, 2024 by John Doe</p>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed libero neque. Vestibulum nec nunc eu
+                nisl
+                euismod faucibus.</p>
+            <p>Nulla facilisi. Sed gravida rutrum neque, in tempus justo tincidunt eu. Integer ac luctus eros, vel
+                venenatis
+                nisi. Aliquam erat volutpat.</p>
+            <footer>
+                <p style="color: #6c757d;">Tags: <a href="#" style="color: #007bff;">tag1</a>, <a href="#"
+                        style="color: #007bff;">tag2</a>, <a href="#" style="color: #007bff;">tag3</a></p>
+            </footer>
+        </article>
+    </main>
+    <footer
+        style="background-color: #007bff; color: #fff; padding: 10px; text-align: center; position: fixed; bottom: 0; width: 100%;">
+        <p>&copy; 2024 Our Website. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>
